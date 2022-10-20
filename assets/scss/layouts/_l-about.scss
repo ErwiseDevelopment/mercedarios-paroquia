@@ -1,0 +1,11 @@
+$layout-name: 'l-about';
+
+.#{$layout-name} {
+    background-image: url(../images/about-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    @media screen and (max-width: 991px) {
+        background-color: #91040B !important;
+    }
+}

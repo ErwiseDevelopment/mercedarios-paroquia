@@ -1,0 +1,51 @@
+$component-name: 'c-title';
+
+.#{$component-name} {
+    &-pattern {
+        position: relative;
+        display: inline-block;
+        font-size: 3.25rem;
+        font-weight: bold;
+        font-family: 'Cinzel Decorative';
+        text-align: center;
+        color: $color-folk-dark-golden;
+
+        @media screen and (max-width: 991px) {
+            font-size: 2.375rem;
+        }
+        
+        @media screen and (min-width: 1600px) {
+            font-size: 4.25rem;
+        }
+
+        &::before,
+        &::after {
+            content: '';
+            width: 12px;
+            height: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            border-radius: 50%;
+            position: absolute;
+            background-color: $color-folk-bold-marron;
+        }
+
+        &::before {
+            left: -50px;
+        }
+
+        &::after {
+            right: -50px;
+        }
+
+        &__underline {
+            width: calc(100% - 60px);
+            height: 5px;
+            top: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            position: absolute;
+            background-color: $color-folk-bold-marron;
+        }
+    }
+}

@@ -19,26 +19,21 @@ get_header(); ?>
 
 <?php while ( have_posts() ) : the_post(); ?>
 
-<!-- menu -->
-<?php echo get_template_part( 'template-parts/content', 'menu-editorials' ) ?>
-<!-- end menu -->
-
 <!-- banner -->
-<?php echo get_template_part( 'template-parts/content', 'banner' ) ?>
+<?php echo get_template_part( 'template-parts/content', 'home-banner' ) ?>
 <!-- end banner -->
 
+<!-- about -->
+<?php echo get_template_part( 'template-parts/content', 'home-about' ) ?>
+<!-- end about -->
+
 <!-- news -->
-<?php echo get_template_part( 'template-parts/content', 'news' ) ?>
+<?php echo get_template_part( 'template-parts/content', 'home-news' ) ?>
 <!-- end news -->
 
-<!-- blog -->
-<?php echo get_template_part( 'template-parts/content', 'blog' ) ?>
-<!-- end blog -->
-
-<img
-class="img-fluid"
-data-src="<?php echo get_template_directory_uri()?>/../wp-bootstrap-starter-child/assets/images/banner-illustration.png"
-alt="Single Temas">
+<!-- banner item -->
+<?php echo get_template_part( 'template-parts/content', 'home-banner-item' ) ?>
+<!-- end banner item -->
 
 <?php endwhile; ?>
 
