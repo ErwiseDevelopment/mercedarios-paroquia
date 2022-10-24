@@ -48,7 +48,7 @@ function ed_create_page() {
                 'menu_title' => 'Avisos', 
                 'menu_slug'  => 'Avisos', 
                 'capability' => 'edit_posts', 
-                'position'   => '23,7', 
+                'position'   => '10,7', 
                 'redirect'   => false, 
                 'icon_url'   => 'dashicons-open-folder',
         ));
