@@ -169,12 +169,12 @@ get_header(); ?>
 
                                             <div class="card-body">
 
-                                                <h5 class="l-page-agenda__date u-font-weight-bold">
+                                                <h5 class="l-page-agenda__date u-font-size-15 u-font-weight-bold u-font-family-lato u-color-folk-black pl-4">
                                                     <!-- 11.02 -->
                                                     <?php echo $dia_data . '.' . $mes_data; ?>
                                                 </h5>
 
-                                                <p class="l-page-agenda__post-title u-font-weight-bold">
+                                                <p class="l-page-agenda__post-title u-font-size-15 u-font-weight-bold u-font-family-lato u-color-folk-black pl-4">
                                                     <!-- Nome do post -->
                                                     <?php echo $calendario['title']; ?>
                                                 </p>
