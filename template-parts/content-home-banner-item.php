@@ -25,6 +25,11 @@
                                     Avisos <br>
                                     Paroquiais:
                                 </h3>
+                                <a 
+                                class="w-100 d-block u-font-size-14 xxl:u-font-size-16 u-font-weight-regular u-font-family-lato text-center text-decoration-none u-color-folk-white u-bg-folk-dark-marron hover:u-bg-folk-dark-golden py-2" 
+                                href="<?php echo get_home_url( null, '/fotos'); ?>">
+                                   Ver agora
+                                </a>
                             </div>
                         </a>
                     </div>
@@ -75,6 +80,11 @@
                                     Avisos <br>
                                     Paroquiais:
                                 </h3>
+                                <a 
+                                class="w-100 d-block u-font-size-14 xxl:u-font-size-16 u-font-weight-regular u-font-family-lato text-center text-decoration-none u-color-folk-white u-bg-folk-dark-marron hover:u-bg-folk-dark-golden py-2" 
+                                href="<?php echo get_home_url( null, '/fotos'); ?>">
+                                   Ver agora
+                                </a>
                             </div>
                         </a>
                     </div>
