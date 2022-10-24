@@ -32,6 +32,8 @@
                             </div>
                         </a>
                     </div>
+                    
+                    <div class="col-lg-4 my-3 my-lg-0">
                     <?php
                         $args = array(
                             'posts_per_page' => 1,
@@ -44,7 +46,6 @@
                         if( $ebooks->have_posts() ) :
                             while( $ebooks->have_posts() ) : $ebooks->the_post();
                     ?>
-                    <div class="col-lg-4 my-3 my-lg-0">
                         <a 
                         class="card h-100 border-0 rounded-0 text-decoration-none u-bg-cover u-bg-no-repeat"
                         style="background-image: url('<?php echo get_template_directory_uri()?>/../wp-bootstrap-starter-child/assets/images/notification-background.png')"
@@ -61,9 +62,10 @@
                                 </p>
                             </div>
                         </a>
+                        <?php endwhile; endif;?> 
                     </div>
-                 <?php endwhile; endif;?>  
-                          
+                  
+
                     <div class="col-lg-4 my-3 my-lg-0">
                         <a 
                         class="card h-100 border-0 rounded-0 text-decoration-none u-bg-cover u-bg-no-repeat"
