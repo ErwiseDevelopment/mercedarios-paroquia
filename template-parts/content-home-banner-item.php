@@ -49,7 +49,7 @@
                         style="background-image: url('<?php echo get_template_directory_uri()?>/../wp-bootstrap-starter-child/assets/images/notification-background.png')"
                         href="<?php echo get_field('link_aviso', 'option'); ?>">
                             <div class="card-body d-flex flex-column justify-content-center align-items-center">
-                                <h3 class="u-font-size-38 xxl:u-font-size-52 u-font-weight-bold u-font-family-cinzel-decorative text-center u-color-folk-dark-marron mb-4">
+                                <h3 class="u-font-size-38 xxl:u-font-size-42 u-font-weight-bold u-font-family-cinzel-decorative text-center u-color-folk-dark-marron mb-4">
                                     Avisos <br>
                                     Paroquiais:
                                 </h3>
