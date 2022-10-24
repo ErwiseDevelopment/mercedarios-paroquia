@@ -18,7 +18,7 @@
                                 
 
                                 <p class="u-font-size-18 xl:u-font-size-22 u-font-weight-semibold u-font-family-nunito text-center u-color-folk-bold-gray">
-                                   <?php echo get_field('icone_esq'); ?>     
+                                <img src="<?php echo get_field('icone_esq'); ?>" >  
                             
                                 </p>
                                 <h3 class="u-font-size-42 xxl:u-font-size-52 u-font-weight-bold u-font-family-cinzel-decorative text-center u-color-folk-dark-marron mb-4">
@@ -62,7 +62,8 @@
                             </div>
                         </a>
                     </div>
-                 <?php endwhile; endif;?>           
+                 <?php endwhile; endif;?>  
+                          
                     <div class="col-lg-4 my-3 my-lg-0">
                         <a 
                         class="card h-100 border-0 rounded-0 text-decoration-none u-bg-cover u-bg-no-repeat"
@@ -72,7 +73,7 @@
                                 
 
                                 <p class="u-font-size-18 xl:u-font-size-22 u-font-weight-semibold u-font-family-nunito text-center u-color-folk-bold-gray">
-                                   <?php echo get_field('icone_dir'); ?>     
+                                   <img src="<?php echo get_field('icone_dir'); ?>" >    
                             
                                 </p>
                                 <h3 class="u-font-size-42 xxl:u-font-size-52 u-font-weight-bold u-font-family-cinzel-decorative text-center u-color-folk-dark-marron mb-4">
