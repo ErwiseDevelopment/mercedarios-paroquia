@@ -38,7 +38,7 @@
                         $args = array(
                             'posts_per_page' => 1,
                             'post_type'      => 'aviso',
-                            'order'          => 'DESC'
+                            //'order'          => 'DESC'
                         );
 
                         $avisos = new WP_Query( $args );
