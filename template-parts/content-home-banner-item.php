@@ -62,8 +62,7 @@
                                 </p>
                             </div>
                         </a>
-                        <?php endwhile; endif;
-                        ?> 
+                        
                     </div>
                   
 
@@ -90,6 +89,8 @@
                             </div>
                         </a>
                     </div>
+                    <?php endwhile; endif;
+                        ?> 
                     <!-- end loop -->
                 </div>
             </div>
