@@ -7,8 +7,6 @@
             <div class="col-12">
 
                 <div class="row">
-
-                    <!-- loop -->
                      <div class="col-lg-4 my-3 my-lg-0">
                         <a 
                         class="card h-100 border-0 rounded-0 text-decoration-none u-bg-cover u-bg-no-repeat"
@@ -44,7 +42,7 @@
                         $avisos = new WP_Query( $args );
 
                         if( $avisos->have_posts() ) :
-                           
+                            while( $avisos->have_posts() ) : $avisos->the_post();
                     ?>
                         <a 
                         class="card h-100 border-0 rounded-0 text-decoration-none u-bg-cover u-bg-no-repeat"
@@ -57,13 +55,12 @@
                                 </h3>
 
                                 <p class="u-font-size-18 xl:u-font-size-22 u-font-weight-semibold u-font-family-nunito text-center u-color-folk-bold-gray">
-                                   <?php echo get_field('descricao_aviso'); ?>     
+                                   <?php var_dump($avisos) ?>     
                             
                                 </p>
                             </div>
                         </a>
-                        <?php  endif;
-                        ?> 
+                        <?php endwhile; endif; ?> 
                     </div>
                   
 
@@ -90,7 +87,7 @@
                             </div>
                         </a>
                     </div>
-                    <!-- end loop -->
+                    
                 </div>
             </div>
         </div>
