@@ -42,6 +42,11 @@ style="background-image: url(<?php echo get_template_directory_uri()?>/../wp-boo
                 <h3 class="u-font-weight-bold text-uppercase u-color-folk-primary">
                     informações
                 </h3>
+                <span 
+                                class="w-100 d-block u-font-size-14 xxl:u-font-size-16 u-font-weight-regular u-font-family-lato text-center text-decoration-none u-color-folk-white u-bg-folk-dark-marron hover:u-bg-folk-dark-golden py-2" 
+                                href="<?php echo get_home_url( null, '/agenda'); ?>">
+                                   Voltar
+                                </span>
             </div>
 
             <div class="col-md-8">
