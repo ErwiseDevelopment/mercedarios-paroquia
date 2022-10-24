@@ -32,18 +32,6 @@
                     </div>
                     
                     <div class="col-lg-4 my-3 my-lg-0">
-                    <!-- <php
-                        $args = array(
-                            'posts_per_page' => 1,
-                            'post_type'      => 'aviso',
-                            'order'          => 'DESC'
-                        );
-
-                        $avisos = new WP_Query( $args );
-
-                        if( $avisos->have_posts() ) :
-                            while( $avisos->have_posts() ) : $avisos->the_post();
-                    ?> -->
                         <a 
                         class="card h-100 border-0 rounded-0 text-decoration-none u-bg-cover u-bg-no-repeat"
                         style="background-image: url('<?php echo get_template_directory_uri()?>/../wp-bootstrap-starter-child/assets/images/notification-background.png')"
@@ -60,7 +48,6 @@
                                 </p>
                             </div>
                         </a>
-                        <!-- <php endwhile; endif; ?>  -->
                     </div>
                   
 
