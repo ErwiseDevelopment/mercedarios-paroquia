@@ -30,8 +30,7 @@
                                 </h3>
 
                                 <p class="u-font-size-18 xl:u-font-size-22 u-font-weight-semibold u-font-family-nunito text-center u-color-folk-bold-gray">
-                                    Dia 30 de Julho haverá venda de pastéis após a missa. <br>
-                                    Valor: R$5,00.
+                                        
 
                                     <br><br>
 
