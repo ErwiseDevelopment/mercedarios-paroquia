@@ -19,7 +19,7 @@
                                 <img src="<?php echo get_field('icone_esq'); ?>" >  
                             
                                 </p>
-                                <h3 class="u-font-size-42 xxl:u-font-size-52 u-font-weight-bold u-font-family-cinzel-decorative text-center u-color-folk-dark-marron mb-4">
+                                <h3 class="u-font-size-42 xxl:u-font-size-42 u-font-weight-bold u-font-family-cinzel-decorative text-center u-color-folk-dark-marron mb-4">
                                     <?php echo get_field('titulo_icon_esquerdo'); ?>
                                 </h3>
                                 <span 
@@ -76,7 +76,7 @@
                                    <img src="<?php echo get_field('icone_dir'); ?>" >    
                             
                                 </p>
-                                <h3 class="u-font-size-42 xxl:u-font-size-52 u-font-weight-bold u-font-family-cinzel-decorative text-center u-color-folk-dark-marron mb-4">
+                                <h3 class="u-font-size-42 xxl:u-font-size-42 u-font-weight-bold u-font-family-cinzel-decorative text-center u-color-folk-dark-marron mb-4">
                                     <?php echo get_field('titulo_icon_direito'); ?>
                                 </h3>
                                 <span 
