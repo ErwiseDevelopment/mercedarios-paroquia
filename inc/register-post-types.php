@@ -55,13 +55,13 @@ function erwise_create_post_type() {
 	// 	'menu_icon' 	=> 'dashicons-open-folder',
 	// 	'supports' 		=> array( 'title', 'editor', 'thumbnail', 'revisions', 'author' )
 	// ) );
-	register_post_type( 'aviso', array(
-		'labels' 		=> array( 'name' => 'Aviso', 'singular_name' => 'Aviso', 'all_items' => 'Aviso' ),
-		'public' 		=> true,
-		'has_archive' 	=> true,
-		'menu_icon' 	=> 'dashicons-open-folder',
-		'supports' 		=> array( 'title', )
-	) );
+	// register_post_type( 'aviso', array(
+	// 	'labels' 		=> array( 'name' => 'Aviso', 'singular_name' => 'Aviso', 'all_items' => 'Aviso' ),
+	// 	'public' 		=> true,
+	// 	'has_archive' 	=> true,
+	// 	'menu_icon' 	=> 'dashicons-open-folder',
+	// 	'supports' 		=> array( 'title', )
+	// ) );
 
 
 	

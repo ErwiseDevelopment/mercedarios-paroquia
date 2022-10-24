@@ -40,5 +40,18 @@ function ed_create_page() {
                 'icon_url'   => 'dashicons-rest-api',
         ));
     }
+
+    if( function_exists('acf_add_options_page') ) {	
+        acf_add_options_page( 
+            array( 
+                'page_title' => 'Avisos', 
+                'menu_title' => 'Avisos', 
+                'menu_slug'  => 'Avisos', 
+                'capability' => 'edit_posts', 
+                'position'   => '23,7', 
+                'redirect'   => false, 
+                'icon_url'   => 'dashicons-open-folder',
+        ));
+    }
 }
 add_action( 'init', 'ed_create_page' );

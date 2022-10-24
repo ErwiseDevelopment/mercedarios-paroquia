@@ -32,7 +32,7 @@
                     </div>
                     
                     <div class="col-lg-4 my-3 my-lg-0">
-                    <?php
+                    <!-- <php
                         $args = array(
                             'posts_per_page' => 1,
                             'post_type'      => 'aviso',
@@ -43,7 +43,7 @@
 
                         if( $avisos->have_posts() ) :
                             while( $avisos->have_posts() ) : $avisos->the_post();
-                    ?>
+                    ?> -->
                         <a 
                         class="card h-100 border-0 rounded-0 text-decoration-none u-bg-cover u-bg-no-repeat"
                         style="background-image: url('<?php echo get_template_directory_uri()?>/../wp-bootstrap-starter-child/assets/images/notification-background.png')"
@@ -55,12 +55,12 @@
                                 </h3>
 
                                 <p class="u-font-size-18 xl:u-font-size-22 u-font-weight-semibold u-font-family-nunito text-center u-color-folk-bold-gray">
-                                   <?php var_dump($avisos) ?>     
+                                   <?php echo get_field('descricao_aviso', 'option'); ?>     
                             
                                 </p>
                             </div>
                         </a>
-                        <?php endwhile; endif; ?> 
+                        <!-- <php endwhile; endif; ?>  -->
                     </div>
                   
 
