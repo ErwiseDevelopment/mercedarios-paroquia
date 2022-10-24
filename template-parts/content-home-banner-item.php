@@ -41,10 +41,10 @@
                             'order'          => 'DESC'
                         );
 
-                        $ebooks = new WP_Query( $args );
+                        $avisos = new WP_Query( $args );
 
-                        if( $ebooks->have_posts() ) :
-                            while( $ebooks->have_posts() ) : $ebooks->the_post();
+                        if( $avisos->have_posts() ) :
+                            while( $avisos->have_posts() ) : $avisos->the_post();
                     ?>
                         <a 
                         class="card h-100 border-0 rounded-0 text-decoration-none u-bg-cover u-bg-no-repeat"
@@ -62,7 +62,8 @@
                                 </p>
                             </div>
                         </a>
-                        
+                        <?php endwhile; endif;
+                        ?> 
                     </div>
                   
 
@@ -89,8 +90,6 @@
                             </div>
                         </a>
                     </div>
-                    <?php endwhile; endif;
-                        ?> 
                     <!-- end loop -->
                 </div>
             </div>
