@@ -83,22 +83,3 @@ function erwise_create_taxonomy() {
 
 }
 add_action( 'init', 'erwise_create_taxonomy' );
-
-function get_date_format( $date ) {
-    list($data_day, $data_month, $data_year) = explode('/', $date); 
-
-    $months = array(
-        '01' => 'janeiro',
-        '02' => 'fevereiro',
-        '03' => 'março',
-        '04' => 'abril',
-        '05' => 'maio',
-        '06' => 'junho',
-        '07' => 'julho',
-        '08' => 'agosto',
-        '09' => 'setembro',
-        '10' => 'outubro',
-        '11' => 'novembro',
-        '12' => 'dezembro',
-    );
-};
