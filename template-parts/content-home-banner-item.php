@@ -59,7 +59,7 @@
                         </a>
                     </div>
                  <?php endwhile; endif;?>           
-                    <<div class="col-lg-4 my-3 my-lg-0">
+                    <div class="col-lg-4 my-3 my-lg-0">
                         <a 
                         class="card h-100 border-0 rounded-0 text-decoration-none u-bg-cover u-bg-no-repeat"
                         style="background-color:red"
