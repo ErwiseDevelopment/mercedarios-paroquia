@@ -20,7 +20,7 @@ function erwise_create_post_type() {
 	// ) );
 	
 		register_post_type( 'agendas', array(
-		'labels' 		=> array( 'name' => 'Eventos', 'singular_name' => 'Eventos', 'all_items' => 'Todos Eventos' ),
+		'labels' 		=> array( 'name' => 'Agendas', 'singular_name' => 'Agendas', 'all_items' => 'Todas agendas' ),
 		'public' 		=> true,
 		'has_archive'	=> true,
 		'menu_icon'		=> 'dashicons-calendar-alt',
@@ -101,4 +101,4 @@ function get_date_format( $date ) {
         '11' => 'novembro',
         '12' => 'dezembro',
     );
-}
+};
