@@ -46,11 +46,18 @@ get_header(); ?>
             <div class="col-md-8">
                 
                 <p>
-                    <strong class="text-uppercase">Horário:</strong> <?php echo get_field( 'txt_horario_custom_post_agenda_inicio' ); ?>
+                    <strong class="text-uppercase">Horário inicio:</strong> <?php echo get_field( 'txt_horario_custom_post_agenda_inicio' ); ?>
+                </p>
+                <p>
+                    <strong class="text-uppercase">Horário Fim:</strong> <?php echo get_field( 'txt_horario_custom_post_agenda_fim' ); ?>
                 </p>
 
                 <p>
-                    <strong class="text-uppercase">Data:</strong> <?php echo get_field( 'data_custom_post_agenda_inicio' ) . ' (' . get_field( 'txt_dia_semana_custom_post_agenda' ) . ')'; ?>
+                    <strong class="text-uppercase">Data inicio:</strong> <?php echo get_field( 'data_custom_post_agenda_inicio' ) .  get_field( 'txt_dia_semana_custom_post_agenda' ) ; ?>
+                </p>
+
+                <p>
+                    <strong class="text-uppercase">Data fim:</strong> <?php echo get_field( 'data_custom_post_agenda_fim' ) ; ?>
                 </p>
 
                 <p>
@@ -59,6 +66,10 @@ get_header(); ?>
 
                 <p>
                     <strong class="text-uppercase">Observações:</strong>
+                        <?php if (!empty(get_field('link_online')))?>
+
+                       Link online: <?php echo get_field('link_online')?>
+
                 </p>
 
                 <span class="d-block">
