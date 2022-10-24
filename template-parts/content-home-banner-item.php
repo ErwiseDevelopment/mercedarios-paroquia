@@ -63,7 +63,7 @@
                             </div>
                         </a>
                         <?php endwhile; endif;
-                        wp_reset_vars($ebooks);?> 
+                        wp_reset_vars($args);?> 
                     </div>
                   
 
