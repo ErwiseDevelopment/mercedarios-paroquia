@@ -53,7 +53,7 @@ get_header(); ?>
                 </p>
 
                 <p>
-                    <strong class="text-uppercase">Data inicio:</strong> <?php echo get_field( 'data_custom_post_agenda_inicio' ) .  get_field( 'txt_dia_semana_custom_post_agenda' ) ; ?>
+                    <strong class="text-uppercase">Data inicio:</strong> <?php echo get_field( 'data_custom_post_agenda_inicio' ) . '  ' . get_field( 'txt_dia_semana_custom_post_agenda' ) ; ?>
                 </p>
                 <?php if (!empty(get_field( 'data_custom_post_agenda_fim' ) )):?>
                 <p>
@@ -67,13 +67,13 @@ get_header(); ?>
                 <?php endif; ?>
 
                 <p> <?php if (!empty(get_field('link_online'))):?>
-                    <strong class="text-uppercase">Observações:</strong>
+                    <strong class="text-uppercase">Observações:</strong><br>
                        
 
-                       Link online: <?php echo get_field('link_online');
+                       Link online: <a href="<?php echo get_field('link_online')?>"><?php echo get_field('link_online');
                        
                         endif;?>
-
+                                    </a>
 
                 </p>
 
