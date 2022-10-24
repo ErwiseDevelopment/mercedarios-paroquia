@@ -38,13 +38,13 @@
                         $args = array(
                             'posts_per_page' => 1,
                             'post_type'      => 'aviso',
-                            //'order'          => 'DESC'
+                            'order'          => 'DESC'
                         );
 
                         $avisos = new WP_Query( $args );
 
                         if( $avisos->have_posts() ) :
-                            while( $avisos->have_posts() ) : $avisos->the_post();
+                           
                     ?>
                         <a 
                         class="card h-100 border-0 rounded-0 text-decoration-none u-bg-cover u-bg-no-repeat"
@@ -62,7 +62,7 @@
                                 </p>
                             </div>
                         </a>
-                        <?php endwhile; endif;
+                        <?php  endif;
                         ?> 
                     </div>
                   
