@@ -55,14 +55,16 @@ get_header(); ?>
                 <p>
                     <strong class="text-uppercase">Data inicio:</strong> <?php echo get_field( 'data_custom_post_agenda_inicio' ) .  get_field( 'txt_dia_semana_custom_post_agenda' ) ; ?>
                 </p>
-
+                <?php if (!empty(get_field( 'data_custom_post_agenda_fim' ) )):?>
                 <p>
                     <strong class="text-uppercase">Data fim:</strong> <?php echo get_field( 'data_custom_post_agenda_fim' ) ; ?>
                 </p>
-
+                <?php endif; ?>
+                <?php if (!empty(get_field( 'txt_local_custom_post_agenda' ) )):?>
                 <p>
                     <strong class="text-uppercase">Local:</strong> <?php echo get_field( 'txt_local_custom_post_agenda' ) ?>
                 </p>
+                <?php endif; ?>
 
                 <p>
                     <strong class="text-uppercase">Observações:</strong>
