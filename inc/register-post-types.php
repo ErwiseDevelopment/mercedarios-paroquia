@@ -3,21 +3,21 @@
 //Função para criar post type:
 function erwise_create_post_type() { 
 
-	register_post_type( 'ebook', array(
-		'labels' 		=> array( 'name' => 'E-book', 'singular_name' => 'E-book', 'all_items' => 'Todos os E-books' ),
-		'public' 		=> true,
-		'has_archive' 	=> true,
-		'menu_icon' 	=> 'dashicons-book',
-		'supports' 		=> array( 'title',  'thumbnail')
-	) );
+	// register_post_type( 'ebook', array(
+	// 	'labels' 		=> array( 'name' => 'E-book', 'singular_name' => 'E-book', 'all_items' => 'Todos os E-books' ),
+	// 	'public' 		=> true,
+	// 	'has_archive' 	=> true,
+	// 	'menu_icon' 	=> 'dashicons-book',
+	// 	'supports' 		=> array( 'title',  'thumbnail')
+	// ) );
 
-	register_post_type( 'Comunidades', array(
-		'labels' 		=> array( 'name' => 'Comunidades', 'singular_name' => 'Comunidade', 'all_items' => 'Todas Comunidades' ),
-		'public' 		=> true,
-		'has_archive' 	=> true,
-		'menu_icon' 	=> 'dashicons-admin-home',
-		'supports' 		=> array( 'title', 'thumbnail', 'author' )
-	) );
+	// register_post_type( 'Comunidades', array(
+	// 	'labels' 		=> array( 'name' => 'Comunidades', 'singular_name' => 'Comunidade', 'all_items' => 'Todas Comunidades' ),
+	// 	'public' 		=> true,
+	// 	'has_archive' 	=> true,
+	// 	'menu_icon' 	=> 'dashicons-admin-home',
+	// 	'supports' 		=> array( 'title', 'thumbnail', 'author' )
+	// ) );
 	
 		register_post_type( 'Evento', array(
 		'labels' 		=> array( 'name' => 'Eventos', 'singular_name' => 'Eventos', 'all_items' => 'Todos Eventos' ),
@@ -34,33 +34,33 @@ function erwise_create_post_type() {
 		'menu_icon'		=> 'dashicons-images-alt2',
 		'supports' 		=> array( 'title', 'thumbnail' ) 
 	) );
-	register_post_type( 'obras', array(
-		'labels' 		=> array( 'name' => 'Nossas Obras', 'singular_name' => 'Nossa Obra', 'all_items' => 'Nossas Obras' ),
-		'public' 		=> true,
-		'has_archive'	=> true,
-		'menu_icon'		=> 'dashicons-universal-access-alt',
-		'supports' 		=> array( 'title', 'thumbnail' ) 
-	) );
-	register_post_type( 'acervo', array(
-		'labels' 		=> array( 'name' => 'Acervo', 'singular_name' => 'Acervo', 'all_items' => 'Acervo' ),
-		'public' 		=> true,
-		'has_archive'	=> true,
-		'menu_icon'		=> 'dashicons-media-spreadsheet',
-		'supports' 		=> array( 'title' ) 
-	) );
-	register_post_type( 'devocoes', array(
-		'labels' 		=> array( 'name' => 'Nossas Devoções', 'singular_name' => 'Nossa Devoção', 'all_items' => 'Nossas Devoções' ),
+	// register_post_type( 'obras', array(
+	// 	'labels' 		=> array( 'name' => 'Nossas Obras', 'singular_name' => 'Nossa Obra', 'all_items' => 'Nossas Obras' ),
+	// 	'public' 		=> true,
+	// 	'has_archive'	=> true,
+	// 	'menu_icon'		=> 'dashicons-universal-access-alt',
+	// 	'supports' 		=> array( 'title', 'thumbnail' ) 
+	// ) );
+	// register_post_type( 'acervo', array(
+	// 	'labels' 		=> array( 'name' => 'Acervo', 'singular_name' => 'Acervo', 'all_items' => 'Acervo' ),
+	// 	'public' 		=> true,
+	// 	'has_archive'	=> true,
+	// 	'menu_icon'		=> 'dashicons-media-spreadsheet',
+	// 	'supports' 		=> array( 'title' ) 
+	// ) );
+	// register_post_type( 'devocoes', array(
+	// 	'labels' 		=> array( 'name' => 'Nossas Devoções', 'singular_name' => 'Nossa Devoção', 'all_items' => 'Nossas Devoções' ),
+	// 	'public' 		=> true,
+	// 	'has_archive' 	=> true,
+	// 	'menu_icon' 	=> 'dashicons-open-folder',
+	// 	'supports' 		=> array( 'title', 'editor', 'thumbnail', 'revisions', 'author' )
+	// ) );
+	register_post_type( 'aviso', array(
+		'labels' 		=> array( 'name' => 'Aviso', 'singular_name' => 'Aviso', 'all_items' => 'Aviso' ),
 		'public' 		=> true,
 		'has_archive' 	=> true,
 		'menu_icon' 	=> 'dashicons-open-folder',
-		'supports' 		=> array( 'title', 'editor', 'thumbnail', 'revisions', 'author' )
-	) );
-	register_post_type( 'governo', array(
-		'labels' 		=> array( 'name' => 'Governo', 'singular_name' => 'Governo', 'all_items' => 'Governo' ),
-		'public' 		=> true,
-		'has_archive' 	=> true,
-		'menu_icon' 	=> 'dashicons-businessperson',
-		'supports' 		=> array( 'title',  'thumbnail',  )
+		'supports' 		=> array( 'title', )
 	) );
 
 
