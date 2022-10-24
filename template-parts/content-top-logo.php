@@ -12,8 +12,8 @@
                         <a 
                         class="d-block text-center u-bg-folk-dark-marron py-3 px-2"
                         href="">
-                            <span class="u-line-height-100 u-font-size-22 xxl:u-font-size-28 u-font-weight-bold u-font-family-cinzel u-color-folk-white">Paróquia nossa senhora das mercês</span> <br>
-                            <span class="u-font-size-12 u-font-weight-bold u-font-family-lato u-color-folk-white">São Paulo - SP</span>
+                            <span class="u-line-height-100 u-font-size-22 xxl:u-font-size-28 u-font-weight-bold u-font-family-cinzel u-color-folk-white"><?php echo get_field('nome_paroquia', 'option') ?></span> <br>
+                            <span class="u-font-size-12 u-font-weight-bold u-font-family-lato u-color-folk-white"><?php echo get_field ('local_paroquia', '') ?></span>
                         </a>
                     </div>
 
@@ -21,7 +21,7 @@
                         <a href="#">
                             <img 
                             class="img-fluid w-100 u-object-fit-cover"
-                            src="<?php echo get_template_directory_uri()?>/../wp-bootstrap-starter-child/assets/images/logo-ordem-das-merces-preto.png" 
+                            src="<?php echo get_field('logo', 'option')?>" 
                             alt="Ordem das Mercês">
                         </a>
                     </div>
