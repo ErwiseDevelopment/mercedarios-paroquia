@@ -23,7 +23,7 @@ style="background-image: url(<?php echo get_template_directory_uri()?>/../wp-boo
 
             <div class="col-12">
 
-                <h2 class="text-center u-color-folk-white">
+                <h2 class="l-template-content__banner__title position-relative u-font-weight-bold u-font-family-cinzel-decorative text-center u-color-folk-white pb-4">
                     <?php the_title() ?>
                 </h2>
             </div>
