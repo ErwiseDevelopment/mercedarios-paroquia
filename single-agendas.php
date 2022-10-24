@@ -58,7 +58,7 @@ get_header(); ?>
                 </p>
 
                 <p>
-                    <strong class="text-uppercase">Observações</strong>
+                    <strong class="text-uppercase">Observações:</strong>
                 </p>
 
                 <span class="d-block">
