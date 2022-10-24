@@ -66,9 +66,12 @@ get_header(); ?>
 
                 <p>
                     <strong class="text-uppercase">Observações:</strong>
-                        <?php if (!empty(get_field('link_online')))?>
+                        <?php if (!empty(get_field('link_online'))):?>
 
-                       Link online: <?php echo get_field('link_online')?>
+                       Link online: <?php echo get_field('link_online');
+                       
+                        endif;?>
+
 
                 </p>
 
