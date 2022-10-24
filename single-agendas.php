@@ -60,11 +60,7 @@ get_header(); ?>
                     <strong class="text-uppercase">Data fim:</strong> <?php echo get_field( 'data_custom_post_agenda_fim' ) ; ?>
                 </p>
                 <?php endif; ?>
-                <?php if (!empty(get_field( 'txt_local_custom_post_agenda' ) )):?>
-                <p>
-                    <strong class="text-uppercase">Local:</strong> <?php echo get_field( 'txt_local_custom_post_agenda' ) ?>
-                </p>
-                <?php endif; ?>
+                
 
                 <p> <?php if (!empty(get_field('link_online'))):?>
                     <strong class="text-uppercase">Observações:</strong><br>
@@ -74,12 +70,18 @@ get_header(); ?>
                        
                         endif;?>
                                     </a>
+                     <?php if (!empty(get_field( 'txt_local_custom_post_agenda' ) )):?>
+                        <p>
+                            <strong class="text-uppercase">Local:</strong> <?php echo get_field( 'txt_local_custom_post_agenda' ) ?>
+                        </p>
+                        <?php endif; ?>
 
-                </p>
-
-                <span class="d-block">
-                    <?php echo get_field( 'txt_observacoes_custom_post_agenda' ) ?>
-                </span>
+                        </p>
+                        <?php if (!empty(get_field( 'txt_observacoes_custom_post_agenda' ) )):?>
+                            <span class="d-block">
+                                <?php echo get_field( 'txt_observacoes_custom_post_agenda' ) ?>
+                            </span>
+                            <?php endif; ?>   
             </div>
         </div>
     </div>
