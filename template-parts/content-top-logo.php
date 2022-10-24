@@ -13,7 +13,7 @@
                         class="d-block text-center u-bg-folk-dark-marron py-3 px-2"
                         href="">
                             <span class="u-line-height-100 u-font-size-22 xxl:u-font-size-28 u-font-weight-bold u-font-family-cinzel u-color-folk-white"><?php echo get_field('nome_paroquia', 'option') ?></span> <br>
-                            <span class="u-font-size-12 u-font-weight-bold u-font-family-lato u-color-folk-white"><?php echo get_field ('local_paroquia', '') ?></span>
+                            <span class="u-font-size-12 u-font-weight-bold u-font-family-lato u-color-folk-white"><?php echo get_field ('local_paroquia', 'option') ?></span>
                         </a>
                     </div>
 
